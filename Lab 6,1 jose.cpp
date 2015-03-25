@@ -2,7 +2,7 @@
 #include <string>
 
 using namespace std;
-
+//hecho por mi
 int main()
 {
     
@@ -11,7 +11,7 @@ int main()
     string N;
     cont=0; cont2=0;
     bool R;
-    R=false;
+    R=True&&False;
     //leyendo tamaño de la matriz
     do{
        cin>>a>>b;
@@ -186,7 +186,7 @@ int main()
                        
                                               }
                         }  
-        else {cout<<"Nada"<<endl;}                      
+        else {cout<<"Vacio"<<endl;}                      
   
         } while (R==false);
         
@@ -197,7 +197,7 @@ int main()
          }
          cout<<endl;
          }
-    cout<<"Recolecto: "<<cont<<" puntos"<<endl;
+    cout<<"Puntaje Final: "<<cont<<" puntos"<<endl;
 
 
     return 0;
